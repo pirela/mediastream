@@ -75,7 +75,7 @@ export default function Exercise02() {
       setSortDes(true)
       setMovies(newMovies);
     }
-  }, [actualGenres]);
+  }, [actualGenres, allMovies]);
 
   return (
     <section className="movie-library">
